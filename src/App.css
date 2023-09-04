@@ -1,0 +1,251 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  width: 100%;
+  color: white;
+  position: fixed;
+  top: 0;
+  transition: 0.2s;
+
+}
+
+.Headermain {
+  padding-bottom: 0px;
+  margin-bottom: -25px;
+}
+
+.Navproduct {
+  padding-top: 5px !important;
+  margin-top: 0px !important;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.Product {
+  margin: 30px 50px 70px 50px;
+  padding: 20px 20px 40px 20px;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  color: #023047;
+  border: 2px solid #023047;
+  border-radius: 10px;
+  background-image: url("../public/Images/Productbg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: 'rgba(0, 0, 0, 0.5)' !important;
+
+}
+
+.card-container {
+  margin: 20px 20px;
+  padding: 20px 20px 0px 20px;
+  border: 1.5px solid #023047 !important;
+  border-radius: 10px !important;
+  background: #d3f7f8;
+  font-size: 0.05%;
+}
+
+.Cardimg {
+  border-radius: 5px !important;
+  border: 0px solid #023047 !important;
+}
+
+.homepage {
+  margin: 0px;
+  background-image: url("../public/Images/HomePage.jpeg");
+  background-size: cover;
+  height: 520px;
+  width: 100%;
+  background-repeat: no-repeat;
+  color: hsl(0, 0%, 100%);
+}
+
+.homepage-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 50%;
+  padding: 110px 20px 20px 50px;
+}
+
+.homepage h1 {
+  color: hsl(0, 0%, 100%);
+}
+
+.LanguagePage {
+  margin: 0px 50px 70px 50px;
+}
+
+.card-img-animation {
+  transition: transform 0.3s ease-in-out;
+  object-fit: cover;
+  height: 250px;
+  width: 100%;
+  border-radius: 5px !important;
+}
+
+.card-img-animation:hover {
+  transform: scale(1.05);
+}
+
+.footer {
+  background-color: rgb(211, 212, 212) !important;
+  width: 100%;
+  bottom: 0;
+  font-size: 16px;
+}
+
+.Search {
+  margin: 10px 40px 30px 40px;
+}
+
+.contactus {
+  margin: 20px 40px 60px 40px !important;
+}
+
+.aboutus {
+  margin: 20px 40px 80px 40px !important;
+}
+
+.feedback-container {
+  background: url("../public/Images/feedback.jpg") no-repeat center center fixed;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0px;
+  padding: 26px;
+}
+
+.feedback-card {
+  width: 50rem;
+  background-color: rgba(128, 128, 128, 0.7);
+  border: 10pt;
+  border-radius: 13pt;
+}
+
+.feedback-card-body {
+  color: white;
+}
+
+.feedback-label {
+  color: white;
+}
+
+.feedback-submit-button {
+  display: flex;
+  justify-content: center;
+}
+
+/* Library.css (Updated CSS file) */
+
+.library {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.library h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.library-card-group {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.library-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+  width: 200px;
+  /* Set a fixed width for the cards */
+  height: 400px;
+  /* Set a fixed height for the cards */
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 15px;
+  display: flex;
+  flex-direction: column;
+  /* Stack image and details vertically */
+  align-items: center;
+  /* Center-align contents horizontally */
+}
+
+.image-container {
+  width: 100%;
+  max-width: 200px;
+  /* Set the max width for image containers */
+  margin: 0 auto;
+}
+
+.product-image {
+  width: 100%;
+  height: 200px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.product-details {
+  align-items: flex-end;
+  flex: 1;
+  /* Allow details to grow/shrink as needed within the card */
+}
+
+.product h3 {
+  margin: 10px 0;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.product p {
+  color: #555;
+  font-size: 1rem;
+  /* Set a consistent font size for descriptions */
+}
+
+/* Hover effect on product cards */
+.library-card:hover {
+  transform: translateY(-5px);
+  transition: transform 0.3s ease-in-out;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}

@@ -1,0 +1,49 @@
+
+.invoice-card {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+  }
+  
+  .invoice-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .invoice-header h1 {
+    margin: 0;
+  }
+  
+  .invoice-content table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .invoice-content table th,
+  .invoice-content table td {
+    padding: 8px;
+    text-align: left;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  .invoice-header-right {
+    text-align: right;
+  }
+  
+  .print-button {
+    display: block;
+    margin-top: 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  

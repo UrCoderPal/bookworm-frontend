@@ -1,0 +1,74 @@
+.beneficiary-list-container {
+    padding: 20px;
+  }
+  
+  .section-heading {
+    color: #333;
+  }
+  
+  .options-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .options-dropdown {
+    margin-right: 10px;
+  }
+  
+  .options-select {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .options-buttons {
+
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px; 
+  }
+  
+  .btn-rented {
+    background-color: #007bff;
+    color: #fff;
+    margin-right: 10px;
+  }
+  
+  .btn-build {
+    background-color: #28a745;
+    color: #fff;
+  }
+  
+  .table-container {
+    margin-top: 20px;
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .table th,
+  .table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  .btn-primary {
+    background-color: #ff5733;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    
+  }
+  
+  .btn-primary:hover {
+    background-color: #ff4500;
+  }
+
+  
